@@ -35,7 +35,7 @@ describe("Operações", function() {
       expect($("#resultado").val()).toBe(num1*num2+'');
     });
 
-    it("deve responder corretamente a multiplicação", function(){
+    it("deve responder corretamente a divisão", function(){
       var num1 = Math.floor(Math.random() * 10);
       var num2 = Math.floor(Math.random() * 10);
       $("#resultado").val(num1+"/"+num2);
